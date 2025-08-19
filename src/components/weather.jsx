@@ -128,7 +128,7 @@ const WeatherSearch = () => {
           disabled={loading}
           className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition"
         >
-          {loading ? "🔎 กำลังค้น..." : "🔍 ค้นหา"}
+          {loading ? "🔎 กำลังค้น..." : "ค้นหา"}
         </button>
       </div>
 
@@ -156,7 +156,7 @@ const WeatherSearch = () => {
 
       {forecastData && (
         <div className="bg-white border rounded-xl shadow p-6">
-          <h3 className="text-xl font-semibold text-gray-700 mb-4 border-b pb-2">
+          <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
             พยากรณ์อากาศล่วงหน้า
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-h-[420px] overflow-y-auto">
