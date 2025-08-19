@@ -128,7 +128,7 @@ const WeatherSearch = () => {
           disabled={loading}
           className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition"
         >
-          {loading ? "🔎 กำลังค้น..." : "ค้นหา"}
+          {loading ? "🔎 กำลังค้น..." : "ทำการค้นหา"}
         </button>
       </div>
 
